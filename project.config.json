@@ -1,0 +1,131 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": false,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.3",
+	"appid": "wxdbf79b2e2cc261ce",
+	"projectname": "psychological",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/character/character",
+					"pathName": "pages/character/character",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/chara_test/chara_test",
+					"pathName": "pages/chara_test/chara_test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "性格测试主页面",
+					"pathName": "pages/character/character",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "心理测试主页面",
+					"pathName": "pages/psy/psy",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "主页面",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "性格答题库",
+					"pathName": "pages/chara_test/chara_test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "结果页面",
+					"pathName": "pages/result/result",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "practice",
+					"pathName": "pages/customdemo/customdemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "性格答题面板",
+					"pathName": "pages/character01/character01",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "答题页面",
+					"pathName": "pages/character01/character01",
+					"scene": null
+				}
+			]
+		}
+	}
+}

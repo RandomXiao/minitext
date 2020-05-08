@@ -1,0 +1,24 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+  /* background-color: cyan; */
+}
+
+.body .img {
+  height: 300rpx;
+  /* background-color: pink; */
+  text-align: center;
+  width: 640rpx;
+  margin: 0 auto;
+}
+
+.body .img image {
+  height: 100%;
+  width: 100%;
+}
+
+.body .content {
+  width: 640rpx;
+  margin: 20rpx auto;
+}

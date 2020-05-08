@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-result": "/component/x-result/x-result"
+  },
+  "navigationBarTitleText": "测试结果"
+}

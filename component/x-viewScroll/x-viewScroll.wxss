@@ -1,0 +1,20 @@
+.hot-url {
+  display: flex;
+  justify-content: flex-start;
+  height: 200rpx;
+  background-color: #fff000;
+  margin: 10rpx;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.hot-url .hotImg {
+  height: 90%;
+  width: 250rpx;
+  margin: 10rpx;
+  padding-right: -20rpx;
+}
+
+.hot-url .text {
+  margin-left: 10rpx;
+}

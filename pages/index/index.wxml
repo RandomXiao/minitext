@@ -1,0 +1,19 @@
+<view class="body">
+  <view class="content">
+    <view class="upGroup">
+      <view class="hot">
+        <text>随机测试</text>
+      </view>
+      <scroll-view class="hot-test" scroll-y="{{true}}">
+        <x-viewScroll list="{{itemList}}" />
+      </scroll-view>
+    </view>
+    <view class="btn">
+      <button bind:tap="goPsy" class="btn-psy" hover-class="button-hover">进入心理测试</button>
+      <button bind:tap="goCharacter" class="btn-character" hover-class="button-hover">
+        进入性格测试
+      </button>
+    </view>
+  </view>
+  <view class="subBar"></view>
+</view>

@@ -1,0 +1,27 @@
+.content {
+  margin: 20rpx;
+}
+
+.content .titleImg {
+  height: 400rpx;
+  text-align: center;
+}
+
+.titleImg image {
+  height: 100%;
+}
+
+.content .page_hd {
+  padding: 20rpx;
+}
+
+.content .page_bd {
+  padding: 20rpx;
+}
+
+.page_bd .weui-cell {
+  padding: 20rpx;
+  margin: 30rpx;
+  background-color: rgb(235, 226, 226);
+  border-radius: 10rpx;
+}

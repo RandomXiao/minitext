@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "x-viewScroll": "/component/x-viewScroll/x-viewScroll"
+  },
+  "navigationBarTitleText": "性格心理测试主页",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,7 @@
+.blue-text {
+  color: blue;
+}
+
+.btn {
+  margin-top: 20rpx;
+}

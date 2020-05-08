@@ -1,0 +1,3 @@
+<!-- pages/result/result.wxml -->
+<x-result my-class="red-text" result="{{result}}" title="{{title}}" img="{{img}}" />
+<button class="btn" bind:tap="handleBack">回到测试主页</button>

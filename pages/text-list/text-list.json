@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-model": "/component/x-model/x-model"
+  },
+  "navigationBarTitleText": "性格测试页面"
+}

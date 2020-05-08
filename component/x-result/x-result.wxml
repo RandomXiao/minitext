@@ -1,0 +1,5 @@
+<view class="head">{{title}}</view>
+<view class="titleImg">
+    <image class="img" src="{{img}}" mode="aspectFit|aspectFill|widthFix"></image>
+</view>
+<view class="result">{{result}}</view>

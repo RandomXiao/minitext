@@ -1,0 +1,21 @@
+.head {
+  font-size: larger;
+  font-weight: 900;
+  margin: 10rpx 40rpx;
+  color: red;
+}
+
+.titleImg {
+  height: 400rpx;
+  /* background-color: #fff333; */
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+
+.img {
+  height: 100%;
+}
+
+.result {
+  margin: 10rpx 30rpx;
+}

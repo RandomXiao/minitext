@@ -1,0 +1,6 @@
+<block wx:for="{{list}}" wx:key="index">
+    <navigator class="hot-url" url="/pages/text-list/text-list?type={{item.type}}&id={{item.id}}">
+        <image class="hotImg" src="{{item.img}}" />
+        <view class="text">{{item.title}}</view>
+    </navigator>
+</block>

@@ -1,0 +1,11 @@
+<block wx:for="{{testItems}}" wx:key="index">
+    <view class="body">
+        <view class="img">
+            <image src="{{item.img}}" mode="scaleToFill"></image>
+        </view>
+        <text class="content">{{item.title}}</text>
+        <view class="btn">
+            <button id="{{index}}" bind:tap="_handlerTap">进入测试</button>
+        </view>
+    </view>
+</block>

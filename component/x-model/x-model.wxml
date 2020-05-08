@@ -1,0 +1,15 @@
+<view class="content">
+    <view class="titleImg">
+        <image src="{{list[0].img}}" mode="aspectFit|aspectFill|widthFix"></image>
+    </view>
+    <view class='page_hd'>
+        <view class="page__title">{{index}}、{{list[0].questionDetail}}</view>
+    </view>
+    <view class="page_bd">
+        <block wx:for="{{list[0].items}}" wx:key="index">
+            <navigator url="/pages/result/result?options={{index+1}}&img={{list[0].img}}&listType={{listType}}&type={{ids}}&title={{list[0].questionDetail}}" class="weui-cell">
+                <view class="weui-cell__bd">{{index+1}}、{{list[0].option[index+1]}}</view>
+            </navigator>
+        </block>
+    </view>
+</view>
